@@ -1,0 +1,91 @@
+body {
+    background-color: #141414;
+}
+
+header {
+    height: 70px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    text-align: -webkit-match-parent;
+    padding-right: 30px;
+}
+
+.perfil {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.avatar-nome {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+
+#logo {
+    width: 100px;
+    height: 35px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.avatar {
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    border-radius: 10px;
+}
+
+#conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gerenciar {
+    color: transparent;
+    border: 1px solid gray;
+    padding: 10px 30px 10px 30px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+#link-gerenciar {
+    color: gray;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar:hover{
+    border: 5px solid rgb(173, 173, 173);
+    max-height: 190px;
+    max-width: 190px;
+    min-height: 77px;
+    min-width: 77px;
+}
+
+.avatar-nome:hover {
+    color: rgb(173, 173, 173);
+    font-weight: bold;
+
+}
+
+#gerenciar:hover {
+    color: rgb(173, 173, 173);
+    font-weight: bold;
+}
