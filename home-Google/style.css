@@ -62,8 +62,17 @@ input{
 }
 
 .link-1 {
-    padding-right: 20px;
-    font-size: 15px;
+    margin-right: 20px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
+}
+
+.border-link-1 {
+    padding: 10px 10px 10px 20px;
+    border: 1px solid #fff;
+}
+
+.border-link-1:hover {
+    border: 1px solid gray;
 }
