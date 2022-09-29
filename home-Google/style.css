@@ -3,8 +3,8 @@ body {
 }
 
 .symbol-1 {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
     color: gray;
 }
 
@@ -27,6 +27,7 @@ nav {
     display: flex;
     padding: 10px 0px 0px 10px;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-elements {
@@ -40,11 +41,21 @@ nav {
     align-items: center;
 }
 
-input{
+#input-div {
     width: 580px;
     height: 45px;
     border-radius: 30px;
-    border: 2px solid gray;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    margin-left: 40px;
+    font-size: 15px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 
 #conteiner-1-1 {
@@ -74,5 +85,14 @@ input{
 }
 
 .border-link-1:hover {
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+}
+
+#user-nav {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
     border: 1px solid gray;
+    background-color: blueviolet;
 }
